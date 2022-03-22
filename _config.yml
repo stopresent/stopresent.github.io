@@ -287,9 +287,8 @@ defaults:
       read_time: false
       comments: # true
       share: true
-      related: false
+      related: true
       show_date: true
-      sidebar:
-        nav: "docs"
+      sidebar_main: true
   
 date_format: "%y-%m-%d"
