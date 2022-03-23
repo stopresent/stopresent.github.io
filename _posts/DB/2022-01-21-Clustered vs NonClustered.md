@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Clustered vs NonClustered"
+title: "Rookiss Part6 SQL 웹서버 : Clustered vs NonClustered"
 categories: DB
 tags: DB
 author_profile: false

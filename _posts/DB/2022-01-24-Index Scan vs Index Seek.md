@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Index Scan vs Index Seek"
+title: "Rookiss Part6 SQL 웹서버 : Index Scan vs Index Seek"
 categories: DB
 tags: DB
 author_profile: false

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "INSERT DELETE UPDATE"
+title: "Rookiss Part6 SQL 웹서버 : INSERT DELETE UPDATE"
 categories: DB
 tags: DB
 author_profile: false
