@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "ClientSession"
+title: "C# Rookiss Part4 게임서버 : ClientSession"
 categories: Server
 tags: Server
 author_profile: false

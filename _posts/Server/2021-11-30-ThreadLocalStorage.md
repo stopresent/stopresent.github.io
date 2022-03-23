@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "ThreadLocalStorage"
+title: "C# Rookiss Part4 게임서버 : ThreadLocalStorage"
 categories: Server
 tags: Server
 author_profile: false

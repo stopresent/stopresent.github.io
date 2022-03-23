@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "ReaderWriterLock"
+title: "C# Rookiss Part4 게임서버 : ReaderWriterLock"
 categories: Server
 tags: Server
 author_profile: false

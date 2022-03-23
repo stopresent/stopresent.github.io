@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "AutoResetEvent"
+title: "C# Rookiss Part4 게임서버 : AutoResetEvent"
 categories: Server
 tags: Server
 author_profile: false

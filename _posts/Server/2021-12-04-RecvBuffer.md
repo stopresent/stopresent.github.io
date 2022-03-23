@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "RecvBuffer"
+title: "C# Rookiss Part4 게임서버 : RecvBuffer"
 categories: Server
 tags: Server
 author_profile: false

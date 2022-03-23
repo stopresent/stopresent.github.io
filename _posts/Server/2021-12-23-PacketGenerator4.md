@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "PacketGenerator4"
+title: "C# Rookiss Part4 게임서버 : PacketGenerator4"
 categories: Server
 tags: Server
 author_profile: false

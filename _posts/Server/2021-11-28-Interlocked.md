@@ -1,6 +1,6 @@
 ---
 layout: single
-title: ""
+title: "C# Rookiss Part4 게임서버 : Interlocked"
 categories: Server
 tags: Server
 author_profile: false

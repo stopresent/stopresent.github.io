@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "ReaderWriterLock구현연습"
+title: "C# Rookiss Part4 게임서버 : ReaderWriterLock구현연습"
 categories: Server
 tags: Server
 author_profile: false

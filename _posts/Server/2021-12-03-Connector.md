@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Connector"
+title: "C# Rookiss Part4 게임서버 : Connector"
 categories: Server
 tags: Server
 author_profile: false
