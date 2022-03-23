@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "ObjectManager"
+title: "C# Rookiss Part7 MMORPG : ObjectManager"
 categories: MMORPG
 tags: MMORPG
 author_profile: false

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Player Animation"
+title: "C# Rookiss Part7 MMORPG : Player Animation"
 categories: MMORPG
 tags: MMORPG
 author_profile: false

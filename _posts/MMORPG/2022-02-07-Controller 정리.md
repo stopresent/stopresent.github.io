@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Controller 정리"
+title: "C# Rookiss Part7 MMORPG : Controller 정리"
 categories: MMORPG
 tags: MMORPG
 author_profile: false

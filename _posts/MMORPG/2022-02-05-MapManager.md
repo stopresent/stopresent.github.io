@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "MapManager"
+title: "C# Rookiss Part7 MMORPG : MapManager"
 categories: MMORPG
 tags: MMORPG
 author_profile: false
