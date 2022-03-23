@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "List, Dictionary"
+title: "C Sharp Rookiss Part1 C Sharp 기초 프로그래밍 입문 : List, Dictionary"
 categories: CS
 tags: CS
 author_profile: false
