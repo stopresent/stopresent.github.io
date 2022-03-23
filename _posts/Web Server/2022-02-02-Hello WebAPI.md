@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Hello WebAPI"
+title: "C# Rookiss Part6 웹서버 : Hello WebAPI"
 categories: Web Server
 tags: Web Server
 author_profile: false

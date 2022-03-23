@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Hello Blazor Client + SPA"
+title: "C# Rookiss Part6 웹서버 : Hello Blazor Client + SPA"
 categories: Web Server
 tags: Web Server
 author_profile: false

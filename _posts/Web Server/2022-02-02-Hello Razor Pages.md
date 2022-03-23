@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Hello Razor Pages"
+title: "C# Rookiss Part6 웹서버 : Hello Razor Pages"
 categories: Web Server
 tags: Web Server
 author_profile: false
