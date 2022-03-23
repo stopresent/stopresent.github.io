@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "C# Rookiss Part6 웹서버 : Hello WebAPI"
-categories: Web Server
-tags: Web Server
+categories: WebServer
+tags: WebServer
 author_profile: false
 sidebar:
   nav: "docs"

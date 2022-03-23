@@ -1,7 +1,7 @@
 ---
 title: "Web Server"
 layout: archive
-permalink: categories/Web Server
+permalink: categories/WebServer
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories['Web Server'] %}
+{% assign posts = site.categories.WebServer %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
