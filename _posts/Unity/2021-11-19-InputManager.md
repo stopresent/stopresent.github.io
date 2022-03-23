@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "InputManager"
+title: "C# Rookiss Part3 유니티 엔진 : InputManager"
 categories: Unity
 tags: Unity
 author_profile: false

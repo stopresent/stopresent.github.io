@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Rookiss Part6 SQL 웹서버 : Nested Loop조인"
+title: "Rookiss Part5 데이터베이스 : Nested Loop조인"
 categories: DB
 tags: DB
 author_profile: false

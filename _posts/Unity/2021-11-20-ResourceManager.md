@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "ResourceManager"
+title: "C# Rookiss Part3 유니티 엔진 : ResourceManager"
 categories: Unity
 tags: Unity
 author_profile: false

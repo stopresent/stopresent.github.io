@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Rookiss Part6 SQL 웹서버 : TRANSATION"
+title: "Rookiss Part5 데이터베이스 : TRANSATION"
 categories: DB
 tags: DB
 author_profile: false

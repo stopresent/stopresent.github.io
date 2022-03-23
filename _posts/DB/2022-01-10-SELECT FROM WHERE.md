@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Rookiss Part6 SQL 웹서버 : SELECT FROM WHERE"
+title: "Rookiss Part5 데이터베이스 : SELECT FROM WHERE"
 categories: DB
 tags: DB
 author_profile: false
