@@ -149,7 +149,7 @@ void EnterGame(StatInfo* playerInfo)
 
 		PrintStatInfo("Player", *playerInfo);
 
-		PrintMessage("[1] 전투 [2] 전투 [1] 도망");
+		PrintMessage("[1] 전투 [2] 전투 [3] 도망");
 
 		int input;
 		cin >> input;
