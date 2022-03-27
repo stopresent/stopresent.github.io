@@ -11,8 +11,8 @@ author_profile: false
 sidebar:
   nav: "docs"
 
-date: 2022-03-22
-last_modified_at: 2022-03-22
+date: 2022-03-24
+last_modified_at: 2022-03-24
 ---
 
 ## 🙇‍♀️TextRPG (with pointer)
