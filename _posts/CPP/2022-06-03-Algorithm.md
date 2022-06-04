@@ -34,13 +34,15 @@ last_modified_at: 2022-06-03
     * remove / remove_if
 
 ```cpp
-vector<int>::iterator itFind = find(v.begin(), v.end(), number); // number 숫자 벡터에 체크
+// number 숫자 벡터에 체크
+vector<int>::iterator itFind = find(v.begin(), v.end(), number);
 
 
+// [](int n){ return (n % 11) == 0; }은 람다식!
 vector<int>::iterator itFind = find_if(v.begin(), v.end(), [](int n) { return (n % 11) == 0; });
 
 
-
+// 조건에 따라 개수 카운트
 int n = count_if(v.begin(), v.end(), [](int n) { return (n % 2) != 0; });
 
 
@@ -53,7 +55,7 @@ bool  b2 = any_of(v.begin(), v.end(), [](int n) { return (n % 2) != 0; });
 bool b3 = none_of(v.begin(), v.end(), [](int n) { return (n % 2) != 0; });
 
 
-
+// 반복문인데 시작과 끝, 반복 행동이 쉽게 보인다
 for_each(v.begin(), v.end(), [](int& n) { n = n * 3; });
 
 
