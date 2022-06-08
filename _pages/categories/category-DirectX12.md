@@ -1,5 +1,5 @@
 ---
-title: "DirectX12"
+title: "DirectX"
 layout: archive
 permalink: categories/DirectX12
 author_profile: true
