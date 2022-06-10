@@ -23,4 +23,17 @@ last_modified_at: 2022-06-10
 <br>
 
 
-## 🪐Maze Prepare
+### 🪐프레임 관리
+
+```cpp
+uint64 lastTick = 0;
+	while (true)
+	{
+#pragma region 프레임 관리
+		const uint64 currenTick = ::GetTickCount64();
+		const uint64 deltaTick = currenTick - lastTick;
+		lastTick = currenTick;
+#pragma endregion
+    }
+```
+### 🪐프레임 관리

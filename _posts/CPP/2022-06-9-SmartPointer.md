@@ -23,7 +23,7 @@ last_modified_at: 2022-06-09
 <br>
 
 
-## 🪐smart pointer
+### 🪐smart pointer
 
 
 ```cpp

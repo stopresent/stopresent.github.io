@@ -23,7 +23,7 @@ last_modified_at: 2022-06-03
 <br>
 
 
-## 🪐Algorithm
+### 🪐Algorithm
 
 
 * 자료구조 (데이터를 저장하는 구조)
