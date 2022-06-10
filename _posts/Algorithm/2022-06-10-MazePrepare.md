@@ -405,3 +405,44 @@ void Player::Update(uint64 deltaTick)
 
 }
 ```
+
+
+<br>
+
+### 🪐Maze.cpp
+
+```cpp
+#include <iostream>
+#include "pch.h"
+#include "ConsoleHelper.h"
+#include "Board.h"
+#include "Player.h"
+
+Board board; // 보드 전역 변수
+Player player; // 플레이어 전역 변수
+
+int main()
+{
+	::srand(static_cast<unsigned>(time(nullptr))); // 랜덤 시드 생성
+	board.Init(25, &player); // 시작은 25크기에 플레이어 설정
+	player.Init(&board); // 플레이어 시작, 진투 보드 삽입
+
+	uint64 lastTick = 0;
+	while (true)
+	{
+#pragma region 프레임 관리
+		const uint64 currenTick = ::GetTickCount64();
+		const uint64 deltaTick = currenTick - lastTick;
+		lastTick = currenTick;
+#pragma endregion
+		// 입력
+
+		// 로직
+		player.Update(deltaTick);
+
+		// 렌더링
+		board.Render();
+		
+	}
+}
+```
