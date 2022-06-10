@@ -355,3 +355,53 @@ ConsoleColor Board::GetTileColor(Pos pos) // 타일 색 가져오기
 	return ConsoleColor::WHITE; // 기본 값은 하얀색
 }
 ```
+
+
+<br>
+
+### 🪐Player.h
+
+```cpp
+#pragma once
+
+class Board; // Board 전방 선언
+
+class Player
+{
+public:
+	void		Init(Board* board); // 보드 진퉁 사용
+	void		Update(uint64 deltaTick); // 프레임 관리를 통한 업데이트
+
+	void		SetPos(Pos pos) { _pos = pos; } // 좌표 설정
+	Pos			GetPos() { return _pos; } // 좌표 가져오기
+
+private:
+	Pos			_pos = {}; // pch.h에 있는 구조체 y, x 넣어야 됨
+	int32		_dir = DIR_UP; // 기본 방향 값은 UP
+	Board*		_board = nullptr; // 보드 멤버변수
+};
+```
+
+
+<br>
+
+### 🪐Player.cpp
+
+이제 구현해야 될 차례
+
+```cpp
+#include "pch.h"
+#include "Player.h"
+#include "Board.h"
+
+void Player::Init(Board* board)
+{
+	_pos = board->GetEnterPos(); // 시작 좌표에 플레이어 넣어주기
+	_board = board;
+}
+
+void Player::Update(uint64 deltaTick)
+{
+
+}
+```
