@@ -133,7 +133,7 @@ enum Dir // 방향 enum
 #include <Windows.h>
 #include "Types.h"
 
-enum class ConsoleColor // 색 담는 그릇 클래스, 사용시 ConsoleColor::RED처럼 사용
+enum class ConsoleColor // 색 담는 그릇 클래스, 사용시 ConsoleColor::RED처럼 사용, 내가 지정하는게 아니라 정해져있는 것
 {
 	BLACK = 0,
 	RED = FOREGROUND_RED,
