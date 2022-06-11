@@ -19,6 +19,13 @@ last_modified_at: 2022-06-10
 
 ## 🙇‍♀️Maze Prepare
 
+pch.cpp, pch.h, Types.h는 기본적으로 만들어 주는 것
+
+콘솔의 그림, 색 등등의 함수들을 관리하는 ConsoleHelper.cpp, ConsoleHelper.h
+
+main함수에서 프레임 관리(while)
+
+보드와 관련된 것들은 Board.cpp에 이동
 
 <br>
 
