@@ -1,5 +1,5 @@
 ---
-title: "C++ Rookiss Part1 C++ 프로그래밍 입문 : Maze Prepare"
+title: "C++ Rookiss Part3 자료구조와 알고리즘 : Maze Prepare"
 
 categories:
   - Algorithm
