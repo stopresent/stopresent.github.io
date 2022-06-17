@@ -1,5 +1,5 @@
 ---
-title: "BaekJun Programing : CreateMenu Final Projact"
+title: "BaekJun Programing : CreateMenu Final Project"
 
 categories:
   - BaekJun
