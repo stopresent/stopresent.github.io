@@ -174,8 +174,8 @@ void BackMenu(node* node)
    if (dirDeepth == 0)
    {
       printf("최상위 디렉토리 입니다\n");
-      printf("3초뒤 돌아갑니다\n");
-      Sleep(3000); // 화면 3초 정지?
+      printf("2초뒤 돌아갑니다\n");
+      Sleep(2000); // 화면 2초 정지?
       return;
    }
 
