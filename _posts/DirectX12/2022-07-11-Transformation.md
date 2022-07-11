@@ -1,5 +1,5 @@
 ---
-title: "C++ Rookiss Part2 게임 수학과 DirectX12 : 변환"
+title: "C++ Rookiss Part2 게임 수학과 DirectX12 : Transformation"
 
 categories:
   - DirectX12
@@ -18,10 +18,10 @@ last_modified_at: 2022-07-11
 <br>
 
 
-## 🙇‍♀️변환
+## 🙇‍♀️Transformation
 
 
 <br>
 
 
-### 🪐변환
+### 🪐Transformation
