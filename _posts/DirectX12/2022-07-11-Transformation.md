@@ -76,4 +76,17 @@ S = $\begin{bmatrix}Sx&0&0\\0&Sy&0\\0&0&Sz\\ \end{bmatrix}$
 
 ![벡터 n에 대한 기하구조의 회전](https://user-images.githubusercontent.com/86364202/178959623-795ec309-09f9-4f66-9592-d47b49331e92.jpg)
 
+수지 부분은 $v_{\bot} = perp_{n}(v) = v - proj_{n}(v)$로 주어진다
 
+$n$이 단위벡터이므로 $proj_{n}(v) = (n \cdot v)n$이다.
+
+$proj_{n}(v)$는 회전에 대해 불변이므로 수직인 부분을 회전하는 방법만 알아내면 된다.
+
+$R_{n}(v) = proj_{n}(v) + R_{n}(v_{\bot})$이므로 $R_{n}(v_{\bot})$만 구하면 된다.
+
+$R_{n}(v_{\bot})$을 구하기위해, 회전 평면에 하나의 2차원 좌표계를 설정.
+$v_{\bot}$를 두 기준 벡터 중 하나로 사용. 다른 하나는 $v_{\bot}$와 $n$에 수직인 벡터이어야 한다. 그러한 벡터는 외적 $n \times v$로 구하면 된다. 삼각함수 공식들에 의해
+
+$\vert\vert n \times v \vert\vert = ||n|| ||v|| sin\alpha = \vert\vert v \vert\vert sin\alpha = \vert\vert v_{\bot} \vert\vert$이다.
+
+$R_{n}(v_{\bot}) = cos\theta v_{\bot} + sin\theta(n \times v)$
