@@ -74,4 +74,6 @@ S = $\begin{bmatrix}Sx&0&0\\0&Sy&0\\0&0&Sz\\ \end{bmatrix}$
 
 벡터 $v$를 축 $n$에 대해 회전하는 변환. $||n|| = 1$이라고 가정
 
+![벡터 n에 대한 기하구조의 회전](https://user-images.githubusercontent.com/86364202/178959623-795ec309-09f9-4f66-9592-d47b49331e92.jpg)
+
 
