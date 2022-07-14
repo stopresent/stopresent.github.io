@@ -89,4 +89,13 @@ $v_{\bot}$를 두 기준 벡터 중 하나로 사용. 다른 하나는 $v_{\bot}
 
 $\vert\vert n \times v \vert\vert = ||n|| ||v|| sin\alpha = \vert\vert v \vert\vert sin\alpha = \vert\vert v_{\bot} \vert\vert$이다.
 
-$R_{n}(v_{\bot}) = cos\theta v_{\bot} + sin\theta(n \times v)$
+두 기준 벡터는 크기가 같기 때문에 $R_{n}(v_{\bot}) = cos\theta v_{\bot} + sin\theta(n \times v)$ 이다.
+
+따라서
+
+$R_{n}(v) \\ = proj_{n}(v) + R_{n}(v) \\ = (n \cdot v)n + cos\theta v_{\bot} + sin\theta(n \times v) \\ = (n \cdot v)n + cos\theta(v - (n \cdot v)n) + sin\theta(n \times v) \\ = cos\theta v + (1 - cos\theta)(n \cdot v)n + sin\theta(n \times v)$
+
+$R_{n}$을 표준기저벡터에 적용하고, 그래서 나온 벡터들을 행으로 삼아서 하나의 행렬을 만들면 구할수 있다. 최종 결과인 **회전행렬**은 다음과 같다.
+
+
+
