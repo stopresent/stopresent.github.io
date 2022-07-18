@@ -87,7 +87,7 @@ $R_{n}(v) = proj_{n}(v) + R_{n}(v_{\bot})$이므로 $R_{n}(v_{\bot})$만 구하�
 $R_{n}(v_{\bot})$을 구하기위해, 회전 평면에 하나의 2차원 좌표계를 설정.
 $v_{\bot}$를 두 기준 벡터 중 하나로 사용. 다른 하나는 $v_{\bot}$와 $n$에 수직인 벡터이어야 한다. 그러한 벡터는 외적 $n \times v$로 구하면 된다. 삼각함수 공식들에 의해
 
-$\vert\vert n \times v \vert\vert = ||n|| ||v|| sin\alpha = \vert\vert v \vert\vert sin\alpha = \vert\vert v_{\bot} \vert\vert$이다.
+$\vert\vert n \times v \vert\vert = ||n|| \, ||v|| \, sin\alpha = \vert\vert v \vert\vert \, sin\alpha = \vert\vert v_{\bot} \vert\vert$이다.
 
 두 기준 벡터는 크기가 같기 때문에 $R_{n}(v_{\bot}) = cos\theta v_{\bot} + sin\theta(n \times v)$ 이다.
 
@@ -102,4 +102,11 @@ $R_{n} = \begin{bmatrix}c + (1 - c)x^2&(1 - c)xy + sz&(1 - c)xz - sy\\ (1 - c)xy
 이떄 $c = cos\theta, s = sin\theta$이다.
 
 회전행렬은 행렬의 각 행벡터는 단위 길이이고 행벡터들은 서로 직교이다. 따라서 행벡터들은 **정규직교**이다. 직교행렬에는 그 역행렬이 자신의 전치행렬과 같다.
+
+$R_{n}^{-1} = R_{n}^T = \begin{bmatrix}c + (1 - c)x^2&(1 - c)xy - sz&(1 - c)xz + sy\\ (1 - c)xy + sz&c + (1 - c)y^2&(1 - c)yz - sz \\ (1 - c)xz - sy&(1 - c)yz + sx&c + (1 - c)z^2 \end{bmatrix}$ 
+
+
+<br>
+
+### 🪐아핀변환
 
