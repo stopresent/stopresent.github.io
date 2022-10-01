@@ -1,1 +1,1 @@
-![pipeline](C:\stopresent\사진\DirectX사진\pipeline.png)
+<img pipeline = "C:\stopresent\사진\DirectX사진\pipeline.png">
