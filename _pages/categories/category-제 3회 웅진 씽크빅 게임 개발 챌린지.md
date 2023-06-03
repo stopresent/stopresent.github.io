@@ -1,7 +1,7 @@
 ---
-title: "웅진 씽크빅 개발 일지"
+title: "제 3회 웅진 씽크빅 게임 개발 챌린지"
 layout: archive
-permalink: categories/웅진 씽크빅
+permalink: categories/제 3회 웅진 씽크빅 게임 개발 챌린지
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.웅진 씽크빅 %}
+{% assign posts = site.categories.['제 3회 웅진 씽크빅 게임 개발 챌린지'] %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

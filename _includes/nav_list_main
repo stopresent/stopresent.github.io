@@ -104,11 +104,11 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">웅진 씽크빅 개발 일지</span>
+        <span class="nav__sub-title">개발 일지</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "웅진 씽크빅" %}
-                        <li><a href="/categories/웅진 씽크빅" class="">웅진 씽크빅 ({{category[1].size}})</a></li>
+                    {% if category[0] == "제 3회 웅진 씽크빅 게임 개발 챌린지" %}
+                        <li><a href="/categories/제 3회 웅진 씽크빅 게임 개발 챌린지" class="">제 3회 웅진 씽크빅 게임 개발 챌린지 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
