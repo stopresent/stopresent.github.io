@@ -288,7 +288,7 @@ defaults:
       comments: # true
       share: true
       related: true
-      show_date: true
+      show_date: false
       sidebar_main: true
   
 date_format: "%y-%m-%d"
