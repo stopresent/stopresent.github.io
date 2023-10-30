@@ -285,10 +285,10 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
-      comments: # true
+      comments: true
       share: true
       related: true
       show_date: false
       sidebar_main: true
   
-date_format: "%y-%m-%d"
+# date_format: "%y-%m-%d"
