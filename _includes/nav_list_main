@@ -107,8 +107,8 @@
         <span class="nav__sub-title">대외 활동</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "대외 활동" %}
-                        <li><a href="/categories/대외 활동" class="">대외 활동 ({{category[1].size}})</a></li>
+                    {% if category[0] == "wjthinkbig-game" %}
+                        <li><a href="/categories/wjthinkbig-game" class="">제 3회 웅진 씽크빅 게임 개발 챌린지 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
