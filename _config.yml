@@ -284,11 +284,11 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: false
+      read_time: true
       comments: true
       share: true
       related: true
-      show_date: false
+      show_date: true
       sidebar_main: true
   
-# date_format: "%y-%m-%d"
+date_format: "%y-%m-%d"
