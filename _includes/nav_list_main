@@ -112,6 +112,13 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "GYAAR" %}
+                        <li><a href="/categories/wjthinkbig-game" class="">제2회 GYAAR Studio 인디 게임 콘테스트 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
       </li>
   </ul>
 </nav>
