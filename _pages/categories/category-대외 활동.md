@@ -1,7 +1,7 @@
 ---
-title: "제 3회 웅진 씽크빅 게임 개발 챌린지"
+title: "대외 활동"
 layout: archive
-permalink: categories/제 3회 웅진 씽크빅 게임 개발 챌린지
+permalink: categories/대외 활동
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.['제 3회 웅진 씽크빅 게임 개발 챌린지'] %}
+{% assign posts = site.categories.['대외 활동'] %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
