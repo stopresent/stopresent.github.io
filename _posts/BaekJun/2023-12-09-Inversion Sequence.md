@@ -12,7 +12,7 @@ sidebar:
   nav: "docs"
 
 date: 2023-12-09
-last_modified_at: 2022-12-09
+last_modified_at: 2023-12-09
 ---
 
 # 🙇‍♀️Inversion Sequence
