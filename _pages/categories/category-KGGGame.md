@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.kgggame %}
+{% assign posts = site.categories.KGGGame %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
