@@ -115,7 +115,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "GYAAR" %}
-                        <li><a href="/categories/wjthinkbig-game" class="">제2회 GYAAR Studio 인디 게임 콘테스트 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/gyaar" class="">제2회 GYAAR Studio 인디 게임 콘테스트 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "kgggame" %}
+                        <li><a href="/categories/kgggame" class="">요리 게임 만들기 도전기 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
