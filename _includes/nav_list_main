@@ -121,7 +121,7 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "kgggame" %}
+                    {% if category[0] == "KGGGame" %}
                         <li><a href="/categories/kgggame" class="">요리 게임 만들기 도전기 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
