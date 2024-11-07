@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "C Sharp Rookiss Part1 기초 프로그래밍 입문 : Interface"
-categories: CS
-tags: CS
+categories: CSharp
+tags: CSharp
 author_profile: false
 sidebar:
   nav: "docs"
