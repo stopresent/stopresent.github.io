@@ -1,7 +1,7 @@
 ---
-title: "윤성우 열혈 C++ 프로그래밍"
+title: "Computer Science"
 layout: archive
-permalink: categories/AdertCPP
+permalink: categories/CS
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.AdertCPP %}
+{% assign posts = site.categories.CS %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
