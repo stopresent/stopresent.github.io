@@ -16,6 +16,10 @@ sidebar:
 - 스택에 넣고싶지만 스택은 불안정함
 - TLS를 만들어서 사용!!
 
+![image](https://github.com/user-attachments/assets/2a093f72-69c4-49ca-92cb-afe73c439ead)
+
+![image](https://github.com/user-attachments/assets/12fe5aae-2c82-4d18-906c-22581f7f065f)
+
 
 ### 🪐TLS
 

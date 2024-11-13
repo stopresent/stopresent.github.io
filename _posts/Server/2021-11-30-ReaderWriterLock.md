@@ -59,6 +59,8 @@ static void Main(string[] args)
 
 
 ```cs
+// RWLock ReaderWriterLock
+// Get할 떄는 lock을 걸지 않고, Write할 때는 lock을 거는 Lock
 static ReaderWriterLockSlim _lock3 = new ReaderWriterLockSlim();
 
 class Reward
